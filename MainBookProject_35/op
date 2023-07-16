@@ -1,0 +1,22 @@
+Admin :
+1. Add Book
+2. update book
+3. delete book
+4. view all books
+5. delete customer
+6. login - logout
+7. All orders
+8. View All Customer 
+9. update Status
+
+Customer/User:
+1. Register
+2. Login - logout
+3. view all books
+4. search book- book by category, by author
+5. add book to cart
+6. Place Order
+7. order history
+8. update profile
+9. Cancel Order
+

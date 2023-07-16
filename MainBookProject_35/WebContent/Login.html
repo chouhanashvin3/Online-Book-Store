@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Handling</title>
+<script type="text/javascript" src="Demo.js"></script>
+<style type="text/css">
+.error {
+	background-color: pink;
+	color: maroon;
+	font-size: 14pt;
+}
+</style>
+</head>
+<body>
+	<form method="post" action="LoginServlet"
+		onsubmit="return validateLoginForm();" name="loginform">
+		<h1>Login Form</h1>
+		<div class="error"></div>
+		<table>
+			<tr>
+				<td>Enter Email Id:</td>
+				<td><input type="email" name="email" id="email"></td>
+			</tr>
+			<tr>
+				<td>Enter Password :</td>
+				<td><input type="password" name="password" id="password"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
